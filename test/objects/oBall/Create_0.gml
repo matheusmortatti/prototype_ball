@@ -15,9 +15,9 @@ groundAccel = 1.0;
 groundFric	= 0.35;
 airAccel	= 0.75;
 airFric		= 0.01;
-vxMax		= 8.0;
-vyMax		= 10.0;
-jumpHeight	= 6.0;
+vxMax		= 10.0;
+vyMax		= 15.0;
+jumpHeight	= 15.0;
 gravNorm	= 0.50;
 
 // time until the bomb explodes

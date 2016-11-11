@@ -3,14 +3,14 @@
 
 var kLeft, kRight, kUp, kDown, kJump, kJumpReleased, kKick, tempAccel, tempFric;
 
-kLeft			= keyboard_check(vk_left)	|| gamepad_axis_value(playerNum, gp_axislh) < -0.4;
-kRight			= keyboard_check(vk_right)	|| gamepad_axis_value(playerNum, gp_axislh) > 0.4;
-kUp				= keyboard_check(vk_up)		|| gamepad_axis_value(playerNum, gp_axislv) < -0.4;
-kDown			= keyboard_check(vk_down)	|| gamepad_axis_value(playerNum, gp_axislv) > 0.4;
+kLeft			= keyboard_check(vk_left)	|| gamepad_axis_value(pad_num, gp_axislh) < -0.4;
+kRight			= keyboard_check(vk_right)	|| gamepad_axis_value(pad_num, gp_axislh) > 0.4;
+kUp				= keyboard_check(vk_up)		|| gamepad_axis_value(pad_num, gp_axislv) < -0.4;
+kDown			= keyboard_check(vk_down)	|| gamepad_axis_value(pad_num, gp_axislv) > 0.4;
 
-kJump			= keyboard_check_pressed(ord("C"))	|| gamepad_button_check_pressed(playerNum, gp_shoulderlb);
-kJumpReleased	= keyboard_check_released(ord("C"))	|| gamepad_button_check_released(playerNum, gp_shoulderlb);
-kKick			= keyboard_check_pressed(ord("X"))	|| gamepad_button_check_pressed(playerNum, gp_shoulderrb);
+kJump			= keyboard_check_pressed(ord("C"))	|| gamepad_button_check_pressed(pad_num, gp_shoulderlb);
+kJumpReleased	= keyboard_check_released(ord("C"))	|| gamepad_button_check_released(pad_num, gp_shoulderlb);
+kKick			= keyboard_check_pressed(ord("X"))	|| gamepad_button_check_pressed(pad_num, gp_shoulderrb);
 
 if(isGrounded) {
 	tempAccel = groundAccel;

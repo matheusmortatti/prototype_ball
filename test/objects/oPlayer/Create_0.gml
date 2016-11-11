@@ -18,11 +18,12 @@ airAccel	= 0.75;
 airFric		= 0.01;
 vxMax		= 5.50;
 vyMax		= 10.0;
-jumpHeight	= 8.0;
+jumpHeight	= 12.0;
 gravNorm	= 0.60;
 
 kicked = false;
 
-playerNum = 0;
+contrPlugged = false;
+pad_num  = -1;
 
 isGrounded = onGround();

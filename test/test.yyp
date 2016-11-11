@@ -759,6 +759,44 @@
                 "resourcePath": "objects\\oPlayerController\\oPlayerController.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "11d8b56d-1b00-49f0-9c00-429c57c1dea5",
+            "Value": {
+                "id": "cbbf7564-a427-4c32-9309-e683af88eb16",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oGamepadController\\oGamepadController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0f9253e7-a9a2-4078-98d2-b39d9391b627",
+            "Value": {
+                "id": "eb36867e-d607-416e-97d5-2abe32aa348d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oGoal\\oGoal.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
